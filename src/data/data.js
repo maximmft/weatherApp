@@ -4,7 +4,7 @@ const WeatherData = [
         "temperature":  "15°C",
         "temperatureMax": "20°C",
         "temperatureMin": "10°C",
-        "sky": "raining", 
+        "sky": "rainy", 
         "humidity": "70%"
     },
     {
@@ -32,11 +32,19 @@ const WeatherData = [
         "humidity": "40%"
     },
     {
+        "city": "Papeete",
+        "temperature":  "32°C",
+        "temperatureMax": "37°C",
+        "temperatureMin": "28°C",
+        "sky": "sunny", 
+        "humidity": "40%"
+    },
+    {
         "city": "Caen",
         "temperature":  "45°C",
         "temperatureMax": "58°C",
         "temperatureMin": "-5°C",
-        "sky": "storm", 
+        "sky": "stormy", 
         "humidity": "80%"
     },
 

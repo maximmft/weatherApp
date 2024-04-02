@@ -1,30 +1,16 @@
-import React, { useState } from 'react';
-import WeatherData from '../data/data';
 
-function SearchBar({ onSearch }) {
-  const [city, setCity] = useState('');
-
-  const handleSearch = (event) => {
-    event.preventDefault();
-    const foundWeather = WeatherData.find(weather => weather.city.toLowerCase() === city.toLowerCase());
-    if (foundWeather) {
-      onSearch(foundWeather);
-    } else {
-      alert('City not found!');
-    }
-  };
+function SearchBar({searchCity, handleSearch}) {
 
   return (
     <div className="searchBar">
-      <form onSubmit={handleSearch}>
         <input
-          type="text"
-          value={city}
-          onChange={(e) => setCity(e.target.value)}
-          placeholder="Enter city name"
-        />
-        <button type="submit">Search</button>
-      </form>
+        type="text"
+        onChange={handleSearch}
+        value={searchCity}
+        placeholder="Enter city name"
+        />  
+`        
+        {/* <button type="submit">Search</button> */}
     </div>
   );
 }

@@ -1,26 +1,46 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css'
 import WeatherCard from './components/WeatherCard'
-import WeatherData from './data/data'
+import weatherData from './data/data'
+import SearchBar from './components/SearchBar';
+
 
 function App() {
-  console.log(WeatherData)
-
-  const weatherData = WeatherData[2]
+    const [searchCity, setSearchCity] = useState('');
+    const [tabFilterData, setTabFilterData] = useState(weatherData);
+  
+    const handleSearch = (event) => {
+      event.preventDefault();
+      setSearchCity(event.target.value)
+      //lowercase (minuscule)
+      //includes js
+      const filter = weatherData.filter(weather => weather.city === event.target.value)
+      if (filter.length !== 0){
+        setTabFilterData(filter)
+      } else {
+        setTabFilterData(weatherData)
+      }
+  };
 
   return (
     <>
      <h1>Weather In</h1>
-     <div>
-        <WeatherCard
-          city={weatherData.city}
-          temperature={weatherData.temperature}
-          temperatureMax={weatherData.temperatureMax}
-          temperatureMin={weatherData.temperatureMin}
-          sky={weatherData.sky}
-          humidity={weatherData.humidity}
-        />
-     </div>
+     <SearchBar searchCity={searchCity} handleSearch={handleSearch}/>
+      {tabFilterData.map((weather, index) => {
+        return (
+          <div key={index}>
+            <WeatherCard
+            city={weather.city}
+            temperature={weather.temperature}
+            temperatureMax={weather.temperatureMax}
+            temperatureMin={weather.temperatureMin}
+            sky={weather.sky}
+            humidity={weather.humidity}
+            />
+        </div>
+        )
+      })}
+        
     </>
   )
 }

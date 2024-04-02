@@ -15,7 +15,10 @@ return (
         <p> {sky}</p>
         <div className="temperatureMaxMin">
         </div>
-        <p> {humidity}</p>
+        <div id="humidityDiv"> 
+            <p id="humidity">{humidity}</p>
+            <p>Humidity: </p>
+        </div>
     </section>
 )}
 

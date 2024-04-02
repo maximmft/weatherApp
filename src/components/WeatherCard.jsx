@@ -1,5 +1,4 @@
 import './WeatherCard.css'
-
 function WeatherCard ({city, temperature, temperatureMax, temperatureMin, sky, humidity }){
 
 return (

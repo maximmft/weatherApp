@@ -26,9 +26,10 @@ function App() {
     <>
      <h1>Weather In</h1>
      <SearchBar searchCity={searchCity} handleSearch={handleSearch}/>
+     <div className="weatherCardsContainer">
       {tabFilterData.map((weather, index) => {
         return (
-          <div key={index}>
+          <div key={index} className="weatherCardsWrapper">
             <WeatherCard
             city={weather.city}
             temperature={weather.temperature}
@@ -40,7 +41,7 @@ function App() {
         </div>
         )
       })}
-        
+    </div>    
     </>
   )
 }

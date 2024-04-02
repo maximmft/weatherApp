@@ -2,32 +2,27 @@ import React from 'react';
 import './App.css'
 import WeatherCard from './components/WeatherCard'
 import WeatherData from './data/data'
-import SearchBar from './components/SearchBar';
-import { useState } from 'react';
 
 function App() {
   console.log(WeatherData)
 
-  const [currentWeather, setCurrentWeather] = useState(null);
-
-  const handleWeatherSearch = (weatherData) => {
-    setCurrentWeather(weatherData);
-  };
+  const weatherData = WeatherData[2]
 
   return (
-    <div className="App">
-      <h1>Weather In</h1>
-      <SearchBar onSearch={handleWeatherSearch} />
-      {currentWeather && <WeatherCard
-        city={currentWeather.city}
-        temperature={currentWeather.temperature}
-        temperatureMax={currentWeather.temperatureMax}
-        temperatureMin={currentWeather.temperatureMin}
-        sky={currentWeather.sky}
-        humidity={currentWeather.humidity}
-      />}
-    </div>
-  );
+    <>
+     <h1>Weather In</h1>
+     <div>
+        <WeatherCard
+          city={weatherData.city}
+          temperature={weatherData.temperature}
+          temperatureMax={weatherData.temperatureMax}
+          temperatureMin={weatherData.temperatureMin}
+          sky={weatherData.sky}
+          humidity={weatherData.humidity}
+        />
+     </div>
+    </>
+  )
 }
 
 export default App

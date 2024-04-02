@@ -4,6 +4,8 @@ import Rainy from '../assets/image/rainy.jpg'
 import Stormy from '../assets/image/storm.jpg'
 import Sunny from '../assets/image/sunny.jpg'
 
+
+
 function WeatherCard ({city, temperature, temperatureMax, temperatureMin, sky, humidity }){
 
 return (

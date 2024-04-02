@@ -1,10 +1,10 @@
 .weatherCard{
-    background: linear-gradient(#006466, #1B3A4B );
+    background: linear-gradient(#006466, #1B3A4B);
     color: white;
     border-radius: 40px;
     padding: 0.5rem 3rem 1rem 3rem ;
-    margin-bottom: 2rem;
-    box-shadow:-3px 4px 50px -6px rgba(236, 236, 236, 0.72);
+    margin: 2rem 0 8rem 0;
+    box-shadow:0px 0px 50px -3px rgba(126, 126, 126, 0.72);
     width: 15rem;
 }
 h2{

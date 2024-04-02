@@ -6,7 +6,7 @@ import WeatherData from './data/data'
 function App() {
   console.log(WeatherData)
 
-  const weatherData = WeatherData[0]
+  const weatherData = WeatherData[2]
 
   return (
     <>

@@ -7,8 +7,18 @@
     box-shadow:0px 0px 50px -3px rgba(126, 126, 126, 0.72);
     width: 15rem;
 }
+
+.alertTrue{
+    background: linear-gradient(#880000, #1B3A4B);
+}
+
+.alert{
+    font-size: 1rem;
+}
+
 h2{
     font-size: 1.5rem ;
+    margin-bottom: 0;
 }
 
 p{margin: 0;}
@@ -17,6 +27,7 @@ p{margin: 0;}
     display: flex;
     flex-direction: column;
     font-size: 1rem;
+    margin-top: 1rem;
 }
 
 .temperatures{

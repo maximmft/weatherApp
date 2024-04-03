@@ -5,7 +5,8 @@ const WeatherData = [
         "temperatureMax": "20°C",
         "temperatureMin": "10°C",
         "sky": "rainy", 
-        "humidity": "70%"
+        "humidity": "70%",
+        "alert": false
     },
     {
         "city": "Paris",
@@ -13,7 +14,8 @@ const WeatherData = [
         "temperatureMax": "25°C",
         "temperatureMin": "17°C",
         "sky": "cloudy", 
-        "humidity": "30%"
+        "humidity": "30%",
+        "alert": false
     },
     {
         "city": "New York",
@@ -21,7 +23,8 @@ const WeatherData = [
         "temperatureMax": "27°C",
         "temperatureMin": "23°C",
         "sky": "cloudy", 
-        "humidity": "40%"
+        "humidity": "40%",
+        "alert": false
     },
     {
         "city": "Hanoi",
@@ -29,7 +32,8 @@ const WeatherData = [
         "temperatureMax": "35°C",
         "temperatureMin": "28°C",
         "sky": "sunny", 
-        "humidity": "60%"
+        "humidity": "60%",
+        "alert": false
     },
     {
         "city": "Rio de Janeiro",
@@ -37,7 +41,8 @@ const WeatherData = [
         "temperatureMax": "35°C",
         "temperatureMin": "22°C",
         "sky": "sunny", 
-        "humidity": "60%"
+        "humidity": "60%",
+        "alert": false
     },
     {
         "city": "Tokyo",
@@ -45,7 +50,8 @@ const WeatherData = [
         "temperatureMax": "23°C",
         "temperatureMin": "16°C",
         "sky": "rainy", 
-        "humidity": "70%"
+        "humidity": "70%",
+        "alert": false
     },
     {
         "city": "Papeete",
@@ -53,7 +59,8 @@ const WeatherData = [
         "temperatureMax": "37°C",
         "temperatureMin": "28°C",
         "sky": "sunny", 
-        "humidity": "60%"
+        "humidity": "60%",
+        "alert": false
     },
     {
         "city": "Caen",
@@ -61,7 +68,8 @@ const WeatherData = [
         "temperatureMax": "58°C",
         "temperatureMin": "-5°C",
         "sky": "stormy", 
-        "humidity": "80%"
+        "humidity": "80%",
+        "alert": false
     },
     {
         "city": "Toronto",
@@ -69,7 +77,8 @@ const WeatherData = [
         "temperatureMax": "30°C",
         "temperatureMin": "22°C",
         "sky": "cloudy", 
-        "humidity": "40%"
+        "humidity": "40%",
+        "alert": false
     },
     {
         "city": "Los Angeles",
@@ -77,7 +86,8 @@ const WeatherData = [
         "temperatureMax": "32°C",
         "temperatureMin": "27°C",
         "sky": "sunny", 
-        "humidity": "50%"
+        "humidity": "50%",
+        "alert": false
     },
     {
         "city": "Montreal",
@@ -85,7 +95,8 @@ const WeatherData = [
         "temperatureMax": "31°C",
         "temperatureMin": "27°C",
         "sky": "cloudy", 
-        "humidity": "50%"
+        "humidity": "50%",
+        "alert": false
     },
     {
         "city": "Abidjan",
@@ -93,7 +104,8 @@ const WeatherData = [
         "temperatureMax": "34°C",
         "temperatureMin": "28°C",
         "sky": "sunny", 
-        "humidity": "30%"
+        "humidity": "30%",
+        "alert": false
     },
     {
         "city": "Dubai",
@@ -101,7 +113,8 @@ const WeatherData = [
         "temperatureMax": "42°C",
         "temperatureMin": "37°C",
         "sky": "sunny", 
-        "humidity": "20%"
+        "humidity": "20%",
+        "alert": false
     },
     {
         "city": "Buenos Aire",
@@ -109,7 +122,8 @@ const WeatherData = [
         "temperatureMax": "27°C",
         "temperatureMin": "21°C",
         "sky": "cloudy", 
-        "humidity": "30%"
+        "humidity": "30%",
+        "alert": false
     },
     {
         "city": "Bangkok",
@@ -117,7 +131,8 @@ const WeatherData = [
         "temperatureMax": "36°C",
         "temperatureMin": "29°C",
         "sky": "stormy", 
-        "humidity": "70%"
+        "humidity": "70%",
+        "alert": true
     },
     {
         "city": "Brasilia",
@@ -125,7 +140,8 @@ const WeatherData = [
         "temperatureMax": "36°C",
         "temperatureMin": "29°C",
         "sky": "sunny", 
-        "humidity": "70%"
+        "humidity": "70%",
+        "alert": false
     },
     {
         "city": "Madrid",
@@ -133,7 +149,8 @@ const WeatherData = [
         "temperatureMax": "30°C",
         "temperatureMin": "24°C",
         "sky": "cloudy", 
-        "humidity": "40%"
+        "humidity": "40%",
+        "alert": false
     },
     {
         "city": "Porto",
@@ -141,7 +158,8 @@ const WeatherData = [
         "temperatureMax": "29°C",
         "temperatureMin": "26°C",
         "sky": "rainy", 
-        "humidity": "60%"
+        "humidity": "60%",
+        "alert": false
     },
     {
         "city": "Toulouse",
@@ -149,7 +167,8 @@ const WeatherData = [
         "temperatureMax": "46°C",
         "temperatureMin": "15°C",
         "sky": "sunny", 
-        "humidity": "30%"
+        "humidity": "30%",
+        "alert": false
     },
     {
         "city": "Dublin",
@@ -157,7 +176,8 @@ const WeatherData = [
         "temperatureMax": "223°C",
         "temperatureMin": "18°C",
         "sky": "stormy", 
-        "humidity": "60%"
+        "humidity": "60%",
+        "alert": false
     },
     {
         "city": "Palerme",
@@ -165,7 +185,8 @@ const WeatherData = [
         "temperatureMax": "32°C",
         "temperatureMin": "18°C",
         "sky": "sunny", 
-        "humidity": "50%"
+        "humidity": "50%",
+        "alert": false
     },
     {
         "city": "Tunis",
@@ -173,7 +194,8 @@ const WeatherData = [
         "temperatureMax": "32°C",
         "temperatureMin": "20°C",
         "sky": "cloudy", 
-        "humidity": "50%"
+        "humidity": "50%",
+        "alert": false
     },
     {
         "city": "Alger",
@@ -181,7 +203,8 @@ const WeatherData = [
         "temperatureMax": "32°C",
         "temperatureMin": "26°C",
         "sky": "sunny", 
-        "humidity": "50%"
+        "humidity": "50%",
+        "alert": false
     },
     {
         "city": "Varsovie",
@@ -189,7 +212,8 @@ const WeatherData = [
         "temperatureMax": "24°C",
         "temperatureMin": "19°C",
         "sky": "stormy", 
-        "humidity": "60%"
+        "humidity": "60%",
+        "alert": false
     },
     {
         "city": "Moscou",
@@ -197,7 +221,8 @@ const WeatherData = [
         "temperatureMax": "24°C",
         "temperatureMin": "16°C",
         "sky": "cloudy", 
-        "humidity": "40%"
+        "humidity": "40%",
+        "alert": false
     },
     {
         "city": "Oslo",
@@ -205,7 +230,8 @@ const WeatherData = [
         "temperatureMax": "21°C",
         "temperatureMin": "17°C",
         "sky": "sunny", 
-        "humidity": "50%"
+        "humidity": "50%",
+        "alert": false
     },
     {
         "city": "Rome",
@@ -213,7 +239,8 @@ const WeatherData = [
         "temperatureMax": "28°C",
         "temperatureMin": "21°C",
         "sky": "rainy", 
-        "humidity": "60%"
+        "humidity": "60%",
+        "alert": false
     },
     {
         "city": "Mexico",
@@ -221,7 +248,8 @@ const WeatherData = [
         "temperatureMax": "30°C",
         "temperatureMin": "24°C",
         "sky": "sunny", 
-        "humidity": "40%"
+        "humidity": "40%",
+        "alert": false
     },
     {
         "city": "Le Caire",
@@ -229,7 +257,8 @@ const WeatherData = [
         "temperatureMax": "37°C",
         "temperatureMin": "32°C",
         "sky": "sunny", 
-        "humidity": "30%"
+        "humidity": "30%",
+        "alert": false
     },
     {
         "city": "Le Cap",
@@ -237,7 +266,8 @@ const WeatherData = [
         "temperatureMax": "28°C",
         "temperatureMin": "21°C",
         "sky": "cloudy", 
-        "humidity": "40%"
+        "humidity": "40%",
+        "alert": false
     },
     {
         "city": "Kaboul",
@@ -245,7 +275,8 @@ const WeatherData = [
         "temperatureMax": "28°C",
         "temperatureMin": "21°C",
         "sky": "sunny", 
-        "humidity": "30%"
+        "humidity": "30%",
+        "alert": false
     },
     {
         "city": "Séoul",
@@ -253,7 +284,8 @@ const WeatherData = [
         "temperatureMax": "27°C",
         "temperatureMin": "21°C",
         "sky": "rainy", 
-        "humidity": "60%"
+        "humidity": "60%",
+        "alert": false
     },
     {
         "city": "Phnom Penh",
@@ -261,7 +293,8 @@ const WeatherData = [
         "temperatureMax": "28°C",
         "temperatureMin": "21°C",
         "sky": "stormy", 
-        "humidity": "70%"
+        "humidity": "70%",
+        "alert": true
     },
 
 ]

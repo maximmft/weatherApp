@@ -6,11 +6,16 @@ import Sunny from '../assets/image/sunny.jpg'
 
 
 
-function WeatherCard ({city, temperature, temperatureMax, temperatureMin, sky, humidity }){
+
+function WeatherCard ({city, temperature, temperatureMax, temperatureMin, sky, humidity,alert }){
+    const alertClass = alert ? "alertTrue" : false ;
+
 
 return (
-    <section className='weatherCard'>
+    <section className={`weatherCard ${alertClass}`}>
+        
         <h2>{city}</h2>
+        {alert === true && <p className='alert'>⚠️Ouragan⚠️</p>}
         <div className='temperatures'>
             <p id="temperature">{temperature}</p>
             <div id="temperatureMaxMin">

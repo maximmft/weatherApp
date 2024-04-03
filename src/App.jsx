@@ -35,6 +35,7 @@ function App() {
             temperatureMin={weather.temperatureMin}
             sky={weather.sky}
             humidity={weather.humidity}
+            alert ={weather.alert}
             />
         </div>
         )

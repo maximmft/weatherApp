@@ -119,6 +119,30 @@ const WeatherData = [
         "sky": "stormy", 
         "humidity": "70%"
     },
+    {
+        "city": "Brasilia",
+        "temperature":  "33°C",
+        "temperatureMax": "36°C",
+        "temperatureMin": "29°C",
+        "sky": "sunny", 
+        "humidity": "70%"
+    },
+    {
+        "city": "Madrid",
+        "temperature":  "27°C",
+        "temperatureMax": "30°C",
+        "temperatureMin": "24°C",
+        "sky": "cloudy", 
+        "humidity": "40%"
+    },
+    {
+        "city": "Porto",
+        "temperature":  "28°C",
+        "temperatureMax": "29°C",
+        "temperatureMin": "26°C",
+        "sky": "rainy", 
+        "humidity": "60%"
+    },
 
 ]
 

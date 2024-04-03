@@ -143,6 +143,30 @@ const WeatherData = [
         "sky": "rainy", 
         "humidity": "60%"
     },
+    {
+        "city": "Toulouse",
+        "temperature":  "28°C",
+        "temperatureMax": "46°C",
+        "temperatureMin": "15°C",
+        "sky": "sunny", 
+        "humidity": "30%"
+    },
+    {
+        "city": "Dublin",
+        "temperature":  "22°C",
+        "temperatureMax": "223°C",
+        "temperatureMin": "18°C",
+        "sky": "stormy", 
+        "humidity": "60%"
+    },
+    {
+        "city": "Palerme",
+        "temperature":  "28°C",
+        "temperatureMax": "32°C",
+        "temperatureMin": "18°C",
+        "sky": "sunny", 
+        "humidity": "50%"
+    },
 
 ]
 

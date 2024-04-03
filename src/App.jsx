@@ -12,9 +12,7 @@ function App() {
     const handleSearch = (event) => {
       event.preventDefault();
       setSearchCity(event.target.value)
-      //lowercase (minuscule)
-      //includes js
-      const filter = weatherData.filter(weather => weather.city === event.target.value)
+      const filter = weatherData.filter(weather => weather.city.toLowerCase().includes(event.target.value))
       if (filter.length !== 0){
         setTabFilterData(filter)
       } else {

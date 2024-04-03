@@ -11,13 +11,15 @@ function App() {
   
     const handleSearch = (event) => {
       event.preventDefault();
-      setSearchCity(event.target.value)
+      setSearchCity(event.target.value) //met à jour searchcity avec la valeur saisie
       //lowercase (minuscule)
       //includes js
-      const filter = weatherData.filter(weather => weather.city === event.target.value)
+      const filter = weatherData.filter(weather => weather.city.toLowerCase() === event.target.value.toLowerCase())
+      //crée un nouveau tableau en filtrant weatherdata en ne conservant que les éléments 
+      //dont la ville(weather.city) correspond à la valeur saisie(target.value)
       if (filter.length !== 0){
         setTabFilterData(filter)
-      } else {
+      } else { 
         setTabFilterData(weatherData)
       }
   };

@@ -167,6 +167,102 @@ const WeatherData = [
         "sky": "sunny", 
         "humidity": "50%"
     },
+    {
+        "city": "Tunis",
+        "temperature":  "28°C",
+        "temperatureMax": "32°C",
+        "temperatureMin": "20°C",
+        "sky": "cloudy", 
+        "humidity": "50%"
+    },
+    {
+        "city": "Alger",
+        "temperature":  "30°C",
+        "temperatureMax": "32°C",
+        "temperatureMin": "26°C",
+        "sky": "sunny", 
+        "humidity": "50%"
+    },
+    {
+        "city": "Varsovie",
+        "temperature":  "22°C",
+        "temperatureMax": "24°C",
+        "temperatureMin": "19°C",
+        "sky": "stormy", 
+        "humidity": "60%"
+    },
+    {
+        "city": "Moscou",
+        "temperature":  "20°C",
+        "temperatureMax": "24°C",
+        "temperatureMin": "16°C",
+        "sky": "cloudy", 
+        "humidity": "40%"
+    },
+    {
+        "city": "Oslo",
+        "temperature":  "19°C",
+        "temperatureMax": "21°C",
+        "temperatureMin": "17°C",
+        "sky": "sunny", 
+        "humidity": "50%"
+    },
+    {
+        "city": "Rome",
+        "temperature":  "27°C",
+        "temperatureMax": "28°C",
+        "temperatureMin": "21°C",
+        "sky": "rainy", 
+        "humidity": "60%"
+    },
+    {
+        "city": "Mexico",
+        "temperature":  "28°C",
+        "temperatureMax": "30°C",
+        "temperatureMin": "24°C",
+        "sky": "sunny", 
+        "humidity": "40%"
+    },
+    {
+        "city": "Le Caire",
+        "temperature":  "35°C",
+        "temperatureMax": "37°C",
+        "temperatureMin": "32°C",
+        "sky": "sunny", 
+        "humidity": "30%"
+    },
+    {
+        "city": "Le Cap",
+        "temperature":  "27°C",
+        "temperatureMax": "28°C",
+        "temperatureMin": "21°C",
+        "sky": "cloudy", 
+        "humidity": "40%"
+    },
+    {
+        "city": "Kaboul",
+        "temperature":  "27°C",
+        "temperatureMax": "28°C",
+        "temperatureMin": "21°C",
+        "sky": "sunny", 
+        "humidity": "30%"
+    },
+    {
+        "city": "Séoul",
+        "temperature":  "25°C",
+        "temperatureMax": "27°C",
+        "temperatureMin": "21°C",
+        "sky": "rainy", 
+        "humidity": "60%"
+    },
+    {
+        "city": "Phnom Penh",
+        "temperature":  "27°C",
+        "temperatureMax": "28°C",
+        "temperatureMin": "21°C",
+        "sky": "stormy", 
+        "humidity": "70%"
+    },
 
 ]
 
